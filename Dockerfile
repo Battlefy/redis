@@ -9,8 +9,8 @@ FROM ubuntu
 
 # Install wget
 RUN  apt-get update \
-  && apt-get install -y wget \
-  && rm -rf /var/lib/apt/lists/*
+  && apt-get install -y wget
+#  && rm -rf /var/lib/apt/lists/*
   
 RUN apt-get install -y build-essential
   
